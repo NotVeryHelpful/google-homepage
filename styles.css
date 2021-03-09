@@ -13,13 +13,18 @@ body {
     height: 100vh;
 }
 
-.navbar {
-    height: 100px;
+.navbar ul {
+    height: 75px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
 
-.navbar ul {
+.navbar .about-store,
+.navbar .user-links {
     display: flex;
-    text-decoration: none;
+    align-items: center;
+    padding: 20px;
 }
 
 .logo {
